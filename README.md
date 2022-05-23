@@ -1,7 +1,13 @@
 ## Assignment for Web Development Trainee - Better HR
 
+### Description
+
+This is a student registeration app which was mainly developed with Laravel framework.
+User can easily create student information with multiple courses at '/students/register' route and can see the list of registered students at '/students'. 
+
 ### Installation 
-```     php composer install 
+```    
+       composer install 
        cp .env.example .env 
        php artisan key:generate
        # create database and configure your database in .env 
